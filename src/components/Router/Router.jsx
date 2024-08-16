@@ -6,6 +6,7 @@ import Login from "../Pages/Login/Login";
 // import Dashboard from "../Layout/Dashboard";
 import Home from "../Pages/Home/Home";
 import ErrorPage from "../Shared/ErrorPage";
+import Products from "../Products/Products";
 // import Home  from "../components/Home/Home"
 // import Home1 from "../components/Home/Home1";
 // import AdminProfile from "../Pages/Dashboard/AdminProfile/AdminProfile";
@@ -39,11 +40,11 @@ const router = createBrowserRouter([
                 path: '/home',
                 element: <Home></Home>,
             },
-            // {
-            //     path: '/aparment',
-            //     loader: () => fetch(`${import.meta.env.VITE_REACT_APP_API_URL}/apartmentcount`),
-            //     element: <Aparments> </Aparments>,
-            // },
+            {
+                path: '/products',
+                loader: () => fetch(`${import.meta.env.VITE_REACT_APP_API_URL}/productscount`),
+                element: <Products> </Products>,
+            },
             
 
 
