@@ -10,7 +10,7 @@ const Products = () => {
 
 
     const [asc, setAsc] = useState(true)
-
+    const [ search ,setSearch] =useState('')
     const [products, setproducts] = useState()
 
     const [itemPerPage, setItemPerPage] = useState(6)
@@ -45,18 +45,25 @@ const Products = () => {
         }
     }
 
-     const handleAsc =( )=>{
+    const handleAsc = () => {
 
-     }
+    }
 
     // const axiosPublic = useAxiosPublic()
 
+    const handleSearch =( e ) => {
+        e.preventDefault()
+        const text = e.target.search.value
+        setSearch( text)
+        console.log(text  )
+
+    }
 
     useEffect(() => {
 
         // fetch(`${import.meta.env.VITE_REACT_APP_API_URL}/products?page=${currentPage}&size=${itemPerPage}&sort=${asc ? "asc" : "desc"}`)
-        fetch(`${import.meta.env.VITE_REACT_APP_API_URL}/products?page=${currentPage}&size=${itemPerPage}&sort=${asc ? "asc" : "desc" }`)
-        // fetch(`${import.meta.env.VITE_REACT_APP_API_URL}/products?page=${currentPage}&size=${itemPerPage}`)
+        fetch(`${import.meta.env.VITE_REACT_APP_API_URL}/products?page=${currentPage}&size=${itemPerPage}&sort=${asc ? "asc" : "desc"} & search=${search}`)
+            // fetch(`${import.meta.env.VITE_REACT_APP_API_URL}/products?page=${currentPage}&size=${itemPerPage}`)
             .then(res => res.json())
             .then(data => {
                 // console.log( data  )
@@ -64,19 +71,18 @@ const Products = () => {
 
             })
 
-    }, [currentPage, itemPerPage , asc ])
+    }, [currentPage, itemPerPage, asc])
 
 
 
     return (
 
         <div>
-            <div className=''>
 
-                {/* grid md:grid-cols-2 */}
+            <form onSubmit={handleSearch} action="">
 
-                <label className="input input-bordered flex items-center gap-2">
-                    <input type="text" className="grow" placeholder="Search" />
+                {/* <label className="input input-bordered flex items-center gap-2">
+                    <input  type="text" className="grow" placeholder="Search" />
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 16 16"
@@ -87,7 +93,18 @@ const Products = () => {
                             d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
                             clipRule="evenodd" />
                     </svg>
-                </label>
+                    <button> ffff</button>
+                </label> */}
+                <input type="text" name="search" placeholder="Type here"
+                    className="input input-bordered w-full max-w-xs" />
+
+                <input className=' btn btn-primary' type="submit" value="search" />
+
+            </form>
+            <div className=''>
+
+                {/* grid md:grid-cols-2 */}
+
 
                 <label className="form-control w-full max-w-xs">
                     <div className="label">
@@ -111,8 +128,8 @@ const Products = () => {
             </div>
 
             <div>
-                <button onClick={ ()=> setAsc( !asc)} className=' btn btn-secondary '> 
-                     { asc ? "Price high to low " : "Price low to high "}  </button>
+                <button onClick={() => setAsc(!asc)} className=' btn btn-secondary '>
+                    {asc ? "Price high to low " : "Price low to high "}  </button>
 
             </div>
 
@@ -131,7 +148,7 @@ const Products = () => {
                             <div className="card-body">
                                 <h2 className="card-title">Shoes!</h2>
                                 <p>If a dog chews shoes whose shoes does he choose?</p>
-                               price  { product?.price  }
+                                price  {product?.price}
                                 <div className="card-actions justify-end">
                                     <button className="btn btn-primary">Buy Now</button>
                                 </div>
