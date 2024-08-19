@@ -31,15 +31,15 @@ const router = createBrowserRouter([
         element: <Main></Main>,
         errorElement: <ErrorPage></ErrorPage>,
         children: [
-            {
-                path: '/',
-                // loader: () => fetch(`${import.meta.env.VITE_REACT_APP_API_URL}/apartments`),
-                element:  <Home></Home>,
-            },
-            {
-                path: '/home',
-                element: <Home></Home>,
-            },
+            // {
+            //     path: '/',
+            //     // loader: () => fetch(`${import.meta.env.VITE_REACT_APP_API_URL}/apartments`),
+            //     element:  <Products></Products> ,
+            // },
+            // {
+            //     path: '/home',
+            //     element: <Products></Products>,
+            // },
             {
                 path: '/products',
                 loader: () => fetch(`${import.meta.env.VITE_REACT_APP_API_URL}/productscount`),
