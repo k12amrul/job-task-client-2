@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import useAxiosPublic from '../hooks/useAxiosPublic';
+import ProductCard from './ProductCard';
 
 const Products = () => {
 
@@ -11,7 +12,7 @@ const Products = () => {
 
     const [asc, setAsc] = useState(true)
     const [ search ,setSearch] =useState('')
-    const [products, setproducts] = useState()
+    const [products, setproducts] = useState([])
 
     const [itemPerPage, setItemPerPage] = useState(6)
     const [currentPage, setCurrentPage] = useState(0)
@@ -45,9 +46,7 @@ const Products = () => {
         }
     }
 
-    const handleAsc = () => {
-
-    }
+   
 
     // const axiosPublic = useAxiosPublic()
 
@@ -61,8 +60,8 @@ const Products = () => {
 
     useEffect(() => {
 
-        // fetch(`${import.meta.env.VITE_REACT_APP_API_URL}/products?page=${currentPage}&size=${itemPerPage}&sort=${asc ? "asc" : "desc"}`)
-        fetch(`${import.meta.env.VITE_REACT_APP_API_URL}/products?page=${currentPage}&size=${itemPerPage}&sort=${asc ? "asc" : "desc"} & search=${search}`)
+        //    fetch(`${import.meta.env.VITE_REACT_APP_API_URL}/products?page=${currentPage}&size=${itemPerPage}&sort=${asc ? "asc" : "desc"}`)
+        fetch(`${import.meta.env.VITE_REACT_APP_API_URL}/products?page=${currentPage}&size=${itemPerPage}&search=${search}&sort=${asc ? "asc" : "desc"} `)
             // fetch(`${import.meta.env.VITE_REACT_APP_API_URL}/products?page=${currentPage}&size=${itemPerPage}`)
             .then(res => res.json())
             .then(data => {
@@ -71,7 +70,7 @@ const Products = () => {
 
             })
 
-    }, [currentPage, itemPerPage, asc])
+    }, [currentPage, itemPerPage, asc ,search    ])
 
 
 
@@ -106,28 +105,11 @@ const Products = () => {
                 {/* grid md:grid-cols-2 */}
 
 
-                <label className="form-control w-full max-w-xs">
-                    <div className="label">
-                        <span className="label-text">Pick the best fantasy franchise</span>
-                        <span className="label-text-alt">Alt label</span>
-                    </div>
-                    <select className="select select-bordered">
-                        <option disabled selected>Pick one</option>
-                        <option>Star Wars</option>
-                        <option>Harry Potter</option>
-                        <option>Lord of the Rings</option>
-                        <option>Planet of the Apes</option>
-                        <option>Star Trek</option>
-                    </select>
-                    <div className="label">
-                        <span className="label-text-alt">Alt label</span>
-                        <span className="label-text-alt">Alt label</span>
-                    </div>
-                </label>
+           
 
             </div>
 
-            <div>
+            <div className=' mt-6'>
                 <button onClick={() => setAsc(!asc)} className=' btn btn-secondary '>
                     {asc ? "Price high to low " : "Price low to high "}  </button>
 
@@ -139,21 +121,10 @@ const Products = () => {
                 {
                     // products?.slice(0,6).map( (product , ix)  => 
                     products?.map((product, ix) =>
-                        <div className="card bg-base-100 w-96 shadow-xl">
-                            <figure>
-                                <img
-                                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                                    alt="Shoes" />
-                            </figure>
-                            <div className="card-body">
-                                <h2 className="card-title">Shoes!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
-                                price  {product?.price}
-                                <div className="card-actions justify-end">
-                                    <button className="btn btn-primary">Buy Now</button>
-                                </div>
-                            </div>
-                        </div>
+                       <ProductCard
+                       product={product}
+                       key={ix}
+                       > </ProductCard>
                     )
 
                 }

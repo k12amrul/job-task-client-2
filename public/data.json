@@ -1,257 +1,267 @@
+
+
 [
 
     {
         "id": 1,
-        "name": "Smartphone X",
-        "brand": "Brand A",
-        "category": "Electronics",
-        "price": 999.99,
+        "name": "Smartphone",
+        "brand": "Samsung",
+        "category": "phone",
+        "price": 9999.99,
         "dateAdded": "2024-01-15",
-        "image": "https://example.com/images/smartphone_x.jpg"
+        "image": "https://img.lazcdn.com/3rd/q/aHR0cHM6Ly9iZC1saXZlLTIxLnNsYXRpYy5uZXQva2YvU2RjMTk3OWQ3ZDIwYzQxYTQ5NWExNWVmODcxMWRmNjYyVi5qcGc=_400x400q75.png_.webp"
     },
     {
         "id": 2,
-        "name": "Running Shoes",
-        "brand": "Brand B",
-        "category": "Footwear",
-        "price": 129.99,
-        "dateAdded": "2024-02-10",
-        "image": "https://example.com/images/running_shoes.jpg"
+        "name": "Laptop",
+        "brand": "Dell",
+        "category": "computer",
+        "price": 1299.99,
+        "dateAdded": "2024-02-01",
+        "image": "https://img.lazcdn.com/3rd/q/aHR0cHM6Ly9iZC1saXZlLTIxLnNsYXRpYy5uZXQva2YvUzFiZTc2NTAyNjhkMzRiOGU4MWRiODMzNTA3NDEwNjQ3QS5qcGc=_400x400q75.png_.webp"
     },
     {
         "id": 3,
-        "name": "Laptop Y",
-        "brand": "Brand A",
-        "category": "Electronics",
-        "price": 1199.99,
-        "dateAdded": "2024-03-01",
-        "image": "https://example.com/images/laptop_y.jpg"
+        "name": "Smartwatch",
+        "brand": "Apple",
+        "category": "wearable",
+        "price": 399.99,
+        "dateAdded": "2024-02-15",
+        "image": "https://img.lazcdn.com/3rd/q/aHR0cHM6Ly9iZC1saXZlLTIxLnNsYXRpYy5uZXQva2YvUzU2ZmExZDFiNWFhMjQ0MWVhZWM0NjFmNzdjYjBiZWNhWS5wbmc=_400x400q75.png_.webp"
     },
     {
         "id": 4,
-        "name": "Blender Pro",
-        "brand": "Brand C",
-        "category": "Home Appliances",
-        "price": 89.99,
-        "dateAdded": "2024-01-25",
-        "image": "https://example.com/images/blender_pro.jpg"
+        "name": "Smartphone ",
+        "brand": "Samsung",
+        "category": "phone",
+        "price": 499.99,
+        "dateAdded": "2024-03-01",
+        "image": "https://img.lazcdn.com/3rd/q/aHR0cHM6Ly9zdGF0aWMtMDEuZGFyYXouY29tLmJkL3AvYzg1M2JiMzM4NGQ2MzFiOGJlODZjN2I4ZjJmNzg3NzQuanBn_400x400q75.png_.webp"
     },
     {
         "id": 5,
-        "name": "Smartwatch Z",
-        "brand": "Brand D",
-        "category": "Wearables",
+        "name": "Wireless Earbuds",
+        "brand": "Bose",
+        "category": "audio",
         "price": 199.99,
-        "dateAdded": "2024-04-05",
-        "image": "https://example.com/images/smartwatch_z.jpg"
+        "dateAdded": "2024-03-10",
+        "image": "https://img.drz.lazcdn.com/static/bd/p/079e32814962d17333d8601d6c3eec2a.jpg_400x400q80.jpg_.webp"
     },
     {
         "id": 6,
-        "name": "4K TV",
-        "brand": "Brand E",
-        "category": "Electronics",
+        "name": "4K Television",
+        "brand": "LG",
+        "category": "television",
         "price": 799.99,
-        "dateAdded": "2024-05-20",
-        "image": "https://example.com/images/4k_tv.jpg"
+        "dateAdded": "2024-03-20",
+        "image": "https://img.drz.lazcdn.com/static/bd/p/c61c7007c8eb7984c6ec00534fa2e944.jpg_400x400q80.jpg_.webp"
     },
     {
         "id": 7,
-        "name": "Electric Kettle",
-        "brand": "Brand C",
-        "category": "Home Appliances",
-        "price": 39.99,
-        "dateAdded": "2024-06-11",
-        "image": "https://example.com/images/electric_kettle.jpg"
+        "name": "Tablet",
+        "brand": "Microsoft",
+        "category": "tablet",
+        "price": 599.99,
+        "dateAdded": "2024-04-01",
+        "image": "https://img.lazcdn.com/3rd/q/aHR0cHM6Ly9zdGF0aWMtMDEuZGFyYXouY29tLmJkL3AvZGViZTZhYWQ1MTNmZGQ4Mjg3YzQ5MzY0OTNmZjNmMTcuanBn_400x400q75.png_.webp"
     },
     {
         "id": 8,
-        "name": "Gaming Mouse",
-        "brand": "Brand F",
-        "category": "Accessories",
-        "price": 49.99,
-        "dateAdded": "2024-07-08",
-        "image": "https://example.com/images/gaming_mouse.jpg"
+        "name": "Bluetooth Speaker",
+        "brand": "JBL",
+        "category": "audio",
+        "price": 149.99,
+        "dateAdded": "2024-04-10",
+        "image": "https://img.lazcdn.com/3rd/q/aHR0cHM6Ly9zdGF0aWMtMDEuZGFyYXouY29tLmJkL3AvY2ZmMDg3ZmM5MzVkMzM3MjI2NmI3YzZhMmI0MmRkZjYuanBn_400x400q75.png_.webp"
     },
     {
         "id": 9,
-        "name": "Bluetooth Speaker",
-        "brand": "Brand G",
-        "category": "Audio",
-        "price": 69.99,
-        "dateAdded": "2024-02-18",
-        "image": "https://example.com/images/bluetooth_speaker.jpg"
+        "name": "Digital Camera",
+        "brand": "Canon",
+        "category": "camera",
+        "price": 899.99,
+        "dateAdded": "2024-04-15",
+        "image": "https://img.lazcdn.com/3rd/q/aHR0cHM6Ly9iZC1saXZlLTIxLnNsYXRpYy5uZXQva2YvU2FiNzc0MzBiY2VlOTQzNDc4NGRiNWIwYTYzZTA3NGNkNC5qcGc=_400x400q75.png_.webp"
     },
     {
         "id": 10,
         "name": "Fitness Tracker",
-        "brand": "Brand D",
-        "category": "Wearables",
-        "price": 89.99,
-        "dateAdded": "2024-04-22",
-        "image": "https://example.com/images/fitness_tracker.jpg"
+        "brand": "Fitbit",
+        "category": "wearable",
+        "price": 129.99,
+        "dateAdded": "2024-04-20",
+        "image": "https://img.lazcdn.com/3rd/q/aHR0cHM6Ly9iZC1saXZlLTIxLnNsYXRpYy5uZXQva2YvU2YxZmVhNGU5MzczNzQxM2NhY2RjMDdiMDMxZWRhNWI1di5qcGc=_400x400q75.png_.webp"
     },
+
+
+
     {
         "id": 11,
-        "name": "Wireless Earbuds",
-        "brand": "Brand H",
-        "category": "Audio",
-        "price": 149.99,
-        "dateAdded": "2024-03-10",
-        "image": "https://example.com/images/wireless_earbuds.jpg"
+        "name": "Electric Kettle",
+        "brand": "Philips",
+        "category": "kitchen appliance",
+        "price": 49.99,
+        "dateAdded": "2024-01-25",
+        "image": "https://img.lazcdn.com/3rd/q/aHR0cHM6Ly9iZC1saXZlLTIxLnNsYXRpYy5uZXQva2YvUzc4OTE1ZDdhNDRkMzRkODdhNjlkZGE1ODQ3YjgyYWY0US5qcGc=_400x400q75.png_.webp"
     },
     {
         "id": 12,
-        "name": "Office Chair",
-        "brand": "Brand I",
-        "category": "Furniture",
-        "price": 249.99,
-        "dateAdded": "2024-01-30",
-        "image": "https://example.com/images/office_chair.jpg"
+        "name": "Air Conditioner",
+        "brand": "Daikin",
+        "category": "home appliance",
+        "price": 799.99,
+        "dateAdded": "2024-02-05",
+        "image": "https://img.lazcdn.com/3rd/q/aHR0cHM6Ly9zdGF0aWMtMDEuZGFyYXouY29tLmJkL3AvNGYyNDMyYmI3NGFlNjIwNWI1NWQwMjkzZDUyZmNhMzkuanBn_400x400q75.png_.webp"
+
     },
     {
         "id": 13,
-        "name": "Air Conditioner",
-        "brand": "Brand J",
-        "category": "Home Appliances",
-        "price": 499.99,
-        "dateAdded": "2024-05-15",
-        "image": "https://example.com/images/air_conditioner.jpg"
+        "name": "Gaming Laptop",
+        "brand": "Asus",
+        "category": "computer",
+        "price": 1799.99,
+        "dateAdded": "2024-02-15",
+        "image": "https://img.lazcdn.com/3rd/q/aHR0cHM6Ly9zdGF0aWMtMDEuZGFyYXouY29tLmJkL3AvZWQ4ZTQ2ODk2ZmI3MDdjZjQyNmQxMjU0YmVjOTkzMTUuanBn_400x400q75.png_.webp"
     },
     {
         "id": 14,
-        "name": "Digital Camera",
-        "brand": "Brand K",
-        "category": "Photography",
-        "price": 699.99,
-        "dateAdded": "2024-06-25",
-        "image": "https://example.com/images/digital_camera.jpg"
+        "name": "Smart Refrigerator",
+        "brand": "Samsung",
+        "category": "home appliance",
+        "price": 1199.99,
+        "dateAdded": "2024-03-01",
+        "image": "https://img.lazcdn.com/3rd/q/aHR0cHM6Ly9zdGF0aWMtMDEuZGFyYXouY29tLmJkL3AvNWI1ODUxZTgxNzk1MThkY2E2ZWNjZDg4ZjM1YTJjZGYuanBn_400x400q75.png_.webp"
     },
     {
         "id": 15,
-        "name": "Electric Guitar",
-        "brand": "Brand L",
-        "category": "Musical Instruments",
-        "price": 399.99,
-        "dateAdded": "2024-07-03",
-        "image": "https://example.com/images/electric_guitar.jpg"
-    },
+        "name": "Gaming Laptop",
+        "brand": "Asus",
+        "category": "computer",
+        "price": 1799.99,
+        "dateAdded": "2024-02-15",
+        "image": "https://img.lazcdn.com/3rd/q/aHR0cHM6Ly9zdGF0aWMtMDEuZGFyYXouY29tLmJkL3AvZWQ4ZTQ2ODk2ZmI3MDdjZjQyNmQxMjU0YmVjOTkzMTUuanBn_400x400q75.png_.webp"
+     },
     {
         "id": 16,
-        "name": "Smart Refrigerator",
-        "brand": "Brand M",
-        "category": "Home Appliances",
-        "price": 1299.99,
-        "dateAdded": "2024-01-10",
-        "image": "https://example.com/images/smart_refrigerator.jpg"
+        "name": "Gaming Laptop",
+        "brand": "Asus",
+        "category": "computer",
+        "price": 1799.99,
+        "dateAdded": "2024-02-15",
+        "image": "https://img.lazcdn.com/3rd/q/aHR0cHM6Ly9zdGF0aWMtMDEuZGFyYXouY29tLmJkL3AvZWQ4ZTQ2ODk2ZmI3MDdjZjQyNmQxMjU0YmVjOTkzMTUuanBn_400x400q75.png_.webp"
     },
     {
         "id": 17,
-        "name": "Treadmill",
-        "brand": "Brand N",
-        "category": "Fitness",
+        "name": "Digital SLR Camera",
+        "brand": "Nikon",
+        "category": "camera",
         "price": 999.99,
-        "dateAdded": "2024-04-15",
-        "image": "https://example.com/images/treadmill.jpg"
+        "dateAdded": "2024-04-05",
+        "image": "https://img.lazcdn.com/3rd/q/aHR0cHM6Ly9iZC1saXZlLTIxLnNsYXRpYy5uZXQva2YvU2JhOThlMzczN2IwMjQwZThiMjY3Mzg3Zjg5MzE2MzQ2TS5qcGc=_400x400q75.png_.webp"
     },
     {
         "id": 18,
-        "name": "Cordless Drill",
-        "brand": "Brand O",
-        "category": "Tools",
-        "price": 89.99,
-        "dateAdded": "2024-02-22",
-        "image": "https://example.com/images/cordless_drill.jpg"
-    },
+        "name": "Smartphone",
+        "brand": "Samsung",
+        "category": "phone",
+        "price": 9999.99,
+        "dateAdded": "2024-01-15",
+        "image": "https://img.lazcdn.com/3rd/q/aHR0cHM6Ly9iZC1saXZlLTIxLnNsYXRpYy5uZXQva2YvU2RjMTk3OWQ3ZDIwYzQxYTQ5NWExNWVmODcxMWRmNjYyVi5qcGc=_400x400q75.png_.webp"
+   },
     {
         "id": 19,
-        "name": "Electric Scooter",
-        "brand": "Brand P",
-        "category": "Transportation",
-        "price": 499.99,
-        "dateAdded": "2024-05-29",
-        "image": "https://example.com/images/electric_scooter.jpg"
+       "name": "Smartwatch",
+        "brand": "Apple",
+        "category": "wearable",
+        "price": 399.99,
+        "dateAdded": "2024-02-15",
+        "image": "https://img.lazcdn.com/3rd/q/aHR0cHM6Ly9iZC1saXZlLTIxLnNsYXRpYy5uZXQva2YvUzU2ZmExZDFiNWFhMjQ0MWVhZWM0NjFmNzdjYjBiZWNhWS5wbmc=_400x400q75.png_.webp"
     },
     {
         "id": 20,
-        "name": "Smart Thermostat",
-        "brand": "Brand Q",
-        "category": "Home Automation",
-        "price": 199.99,
-        "dateAdded": "2024-03-25",
-        "image": "https://example.com/images/smart_thermostat.jpg"
-    },
+        "name": "Noise-Cancelling Headphones",
+        "brand": "Sony",
+        "category": "audio",
+        "price": 249.99,
+        "dateAdded": "2024-04-20",
+        "image": "https://media.istockphoto.com/id/1281413430/photo/modern-noise-cancelling-headphones.jpg?s=1024x1024&w=is&k=20&c=VZDlSPofLgNCh-d_dDX9xjX73hFwAePZ7NY6UB0zUJk="
+    }
+,
     {
         "id": 21,
-        "name": "Noise-Canceling Headphones",
-        "brand": "Brand R",
-        "category": "Audio",
-        "price": 299.99,
-        "dateAdded": "2024-06-05",
-        "image": "https://example.com/images/noise_canceling_headphones.jpg"
+        "name": "Refrigerator",
+        "brand": "Brand T",
+        "category": "Home Appliances",
+        "price": 899.99,
+        "dateAdded": "2024-04-02",
+        "image": "https://img.lazcdn.com/3rd/q/aHR0cHM6Ly9zdGF0aWMtMDEuZGFyYXouY29tLmJkL3AvNWI1ODUxZTgxNzk1MThkY2E2ZWNjZDg4ZjM1YTJjZGYuanBn_400x400q75.png_.webp"
     },
     {
         "id": 22,
-        "name": "Robot Vacuum",
-        "brand": "Brand S",
+        "name": "Microwave Oven",
+        "brand": "Brand U",
         "category": "Home Appliances",
-        "price": 349.99,
-        "dateAdded": "2024-02-28",
-        "image": "https://example.com/images/robot_vacuum.jpg"
+        "price": 129.99,
+        "dateAdded": "2024-01-20",
+        "image": "https://example.com/images/microwave_oven.jpg"
     },
     {
         "id": 23,
-        "name": "Tablet Pro",
-        "brand": "Brand T",
-        "category": "Electronics",
-        "price": 899.99,
-        "dateAdded": "2024-07-12",
-        "image": "https://example.com/images/tablet_pro.jpg"
+        "name": "Coffee Maker",
+        "brand": "Brand V",
+        "category": "Home Appliances",
+        "price": 89.99,
+        "dateAdded": "2024-02-02",
+        "image": "https://example.com/images/coffee_maker.jpg"
     },
     {
         "id": 24,
-        "name": "Electric Toothbrush",
-        "brand": "Brand U",
-        "category": "Personal Care",
-        "price": 59.99,
-        "dateAdded": "2024-01-18",
-        "image": "https://example.com/images/electric_toothbrush.jpg"
+        "name": "Electric Kettle",
+        "brand": "Brand W",
+        "category": "Home Appliances",
+        "price": 39.99,
+        "dateAdded": "2024-03-17",
+        "image": "https://example.com/images/electric_kettle.jpg"
     },
     {
         "id": 25,
-        "name": "Smart Light Bulbs",
-        "brand": "Brand V",
-        "category": "Home Automation",
-        "price": 29.99,
-        "dateAdded": "2024-03-14",
-        "image": "https://example.com/images/smart_light_bulbs.jpg"
+        "name": "Smart Lock",
+        "brand": "Brand X",
+        "category": "Home Security",
+        "price": 149.99,
+        "dateAdded": "2024-04-04",
+        "image": "https://example.com/images/smart_lock.jpg"
     },
     {
         "id": 26,
-        "name": "E-Reader",
-        "brand": "Brand W",
-        "category": "Electronics",
-        "price": 129.99,
-        "dateAdded": "2024-04-25",
-        "image": "https://example.com/images/e_reader.jpg"
+        "name": "Security Camera",
+        "brand": "Brand Y",
+        "category": "Home Security",
+        "price": 99.99,
+        "dateAdded": "2024-01-10",
+        "image": "https://example.com/images/security_camera.jpg"
     },
     {
         "id": 27,
-        "name": "Digital Piano",
-        "brand": "Brand X",
-        "category": "Musical Instruments",
-        "price": 799.99,
-        "dateAdded": "2024-05-02",
-        "image": ""
+        "name": "Dishwasher",
+        "brand": "Brand Z",
+        "category": "Home Appliances",
+        "price": 499.99,
+        "dateAdded": "2024-02-08",
+        "image": "https://example.com/images/dishwasher.jpg"
     },
     {
         "id": 28,
-        "name": "Air Fryer",
-        "brand": "Brand Y",
-        "category": "Home Appliances",
-        "price": 149.99,
-        "dateAdded": "2024-06-18",
-        "image": "https://example.com/images/air_fryer.jpg"
+        "name": "Standing Desk",
+        "brand": "Brand AA",
+        "category": "Furniture",
+        "price": 299.99,
+        "dateAdded": "2024-03-03",
+        "image": "https://img.lazcdn.com/3rd/q/aHR0cHM6Ly9zdGF0aWMtMDEuZGFyYXouY29tLmJkL3AvNWI1ODUxZTgxNzk1MThkY2E2ZWNjZDg4ZjM1YTJjZGYuanBn_400x400q75.png_.webp"
+
     },
+
+
     {
         "id": 29,
         "name": "Mountain Bike",
@@ -353,7 +363,7 @@
     },
     {
         "id": 40,
-        "name": "Electric Grill",
+        "name": "Electric",
         "brand": "Brand KK",
         "category": "Home Appliances",
         "price": 199.99,
